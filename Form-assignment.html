@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="Form.css">
+  <meta charset="utf-8">
+  <title>Form</title>
+</head>
+
+<body>
+  <div class="video_wallpaper">
+    <div class="video_container">
+      <div class="color_overlay"></div>
+      <video autoplay loop muted>
+        <source src="league_screensaver.mp4" type="video/mp4">
+      </video>
+    </div>
+
+
+  <div class="container">
+    <form action="formdata.html" method="get">
+
+      <div>
+        <div class="labelname">
+          <label for="name">Name</label>
+        </div>
+        <div class="inputanswer">
+          <input type="text" name="name" id="name" placeholder="Username" required>
+        </div>
+      </div>
+
+      <div>
+        <div class="labelname">
+          <label for="address">Address</label>
+        </div>
+        <div class="inputanswer">
+          <input type="text" name="address" id="address" placeholder="Address" required>
+        </div>
+      </div>
+
+      <div>
+        <div class="labelname">
+          <label for="email">Email</label>
+        </div>
+        <div class="inputanswer">
+          <input type="email" name="email" id="email" placeholder="bendabest@gmail.com" required>
+        </div>
+      </div>
+
+      <div>
+        <div class="labelname">
+          <label for="password">Password</label>
+        </div>
+        <div class="inputanswer">
+          <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+      </div>
+
+      <div>
+        <div class="labelname">
+          <label for="phone">Phone</label>
+        </div>
+        <div class="inputanswer">
+          <input type="tel" name="phone" id="phone" required>
+        </div>
+      </div>
+
+      <div>
+        <div class="labelname">
+          <label for="date">Date of birth</label>
+        </div>
+        <div class="inputanswer">
+          <input type="date" name="date" id="date" required min=1800-01-01 max=2020-01-01>
+        </div>
+        <br>
+      </div>
+    <div class="labelname">
+      <input type="checkbox" unchecked="unchecked" name="I am not a robot" required>
+    "I am not a robot"
+    </div>
+    <p>
+      By clicking Submit you agree to our
+      <a href="file:///C:/Users/eleaz/OneDrive/Documents/HIT226/Form%20Assignment/Terms%20&%20Conditions.html"
+      target="_blank">Terms & Conditions</a>.
+    </p>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  </div>
+</body>
+</html>
